@@ -13,8 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('dashboard.home');
+Route::get('/create', function () {
+    return view('dashboard.create');
 });
 
+Route::view('/blog-lists','dashboard.blog-list');
+Route::view('/blog-detail','dashboard.blog-detail');
 
