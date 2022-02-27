@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Mirrored from colorlib.com/polygon/admindek/default/form-validation.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Dec 2019 16:09:14 GMT -->
+  <!-- Added by HTTrack --><meta
+    http-equiv="content-type"
+    content="text/html;charset=UTF-8"
+  /><!-- /Added by HTTrack -->
+  <head>
+    <title>Blog Create Lists</title>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Admindek Bootstrap admin template made using Bootstrap 4 and it has huge amount of ready made feature, UI components, pages which completely fulfills any dashboard needs."
+    />
+    <meta
+      name="keywords"
+      content="bootstrap, bootstrap admin template, admin theme, admin dashboard, dashboard template, admin template, responsive"
+    />
+    <meta name="author" content="colorlib" />
+
+    <link
+      rel="icon"
+      href="https://colorlib.com/polygon/admindek/files/assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:500,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="css/waves.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link rel="stylesheet" type="text/css" href="css/feather.css" />
+    <link rel="stylesheet" type="text/css" href="css/sweetalert.css" />
+    <link rel="stylesheet" type="text/css" href="css/themify-icons.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/icofont.css" />
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" href="css/select2.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/pages.css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/blog-detail.css">
+  </head>
+  <body>
+    <div class="loader-bg">
+      <div class="loader-bar"></div>
+    </div>
+
+    <div id="pcoded" class="pcoded">
+      <div class="pcoded-overlay-box"></div>
+      <div class="pcoded-container navbar-wrapper">
+        <nav class="navbar header-navbar pcoded-header">
+          <div class="navbar-wrapper">
+            <div class="navbar-logo">
+              <a href="index.html">
+                <img class="img-fluid" src="png/logo.png" alt="Theme-Logo" />
+              </a>
+              <a class="mobile-menu" id="mobile-collapse" href="#!">
+                <i class="feather icon-menu icon-toggle-right"></i>
+              </a>
+              <a class="mobile-options waves-effect waves-light">
+                <i class="feather icon-more-horizontal"></i>
+              </a>
+            </div>
+            <div class="navbar-container container-fluid">
+              <ul class="nav-left">
+                <li class="header-search">
+                  <div class="main-search morphsearch-search">
+                    <div class="input-group">
+                      <span class="input-group-prepend search-close">
+                        <i class="feather icon-x input-group-text"></i>
+                      </span>
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Enter Keyword"
+                      />
+                      <span class="input-group-append search-btn">
+                        <i class="feather icon-search input-group-text"></i>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a
+                    href="#!"
+                    onclick="if (!window.__cfRLUnblockHandlers) return false; javascript:toggleFullScreen()"
+                    class="waves-effect waves-light"
+                    data-cf-modified-9fef68816305b81b29a5d613-=""
+                  >
+                    <i class="full-screen feather icon-maximize"></i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="nav-right">
+                <li class="header-notification">
+                  <div class="dropdown-primary dropdown">
+                    <div class="dropdown-toggle" data-toggle="dropdown">
+                      <i class="feather icon-bell"></i>
+                      <span class="badge bg-c-red">5</span>
+                    </div>
+                    <ul
+                      class="show-notification notification-view dropdown-menu"
+                      data-dropdown-in="fadeIn"
+                      data-dropdown-out="fadeOut"
+                    >
+                      <li>
+                        <h6>Notifications</h6>
+                        <label class="label label-danger">New</label>
+                      </li>
+                      <li>
+                        <div class="media">
+                          <img
+                            class="img-radius"
+                            src="jpg/avatar-4.jpg"
+                            alt="Generic placeholder image"
+                          />
+                          <div class="media-body">
+                            <h5 class="notification-user">John Doe</h5>
+                            <p class="notification-msg">
+                              Lorem ipsum dolor sit amet, consectetuer elit.
+                            </p>
+                            <span class="notification-time"
+                              >30 minutes ago</span
+                            >
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media">
+                          <img
+                            class="img-radius"
+                            src="jpg/avatar-3.jpg"
+                            alt="Generic placeholder image"
+                          />
+                          <div class="media-body">
+                            <h5 class="notification-user">Joseph William</h5>
+                            <p class="notification-msg">
+                              Lorem ipsum dolor sit amet, consectetuer elit.
+                            </p>
+                            <span class="notification-time"
+                              >30 minutes ago</span
+                            >
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media">
+                          <img
+                            class="img-radius"
+                            src="jpg/avatar-4.jpg"
+                            alt="Generic placeholder image"
+                          />
+                          <div class="media-body">
+                            <h5 class="notification-user">Sara Soudein</h5>
+                            <p class="notification-msg">
+                              Lorem ipsum dolor sit amet, consectetuer elit.
+                            </p>
+                            <span class="notification-time"
+                              >30 minutes ago</span
+                            >
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header-notification">
+                  <div class="dropdown-primary dropdown">
+                    <div
+                      class="displayChatbox dropdown-toggle"
+                      data-toggle="dropdown"
+                    >
+                      <i class="feather icon-message-square"></i>
+                      <span class="badge bg-c-green">3</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="user-profile header-notification">
+                  <div class="dropdown-primary dropdown">
+                    <div class="dropdown-toggle" data-toggle="dropdown">
+                      <img
+                        src="jpg/avatar-4.jpg"
+                        class="img-radius"
+                        alt="User-Profile-Image"
+                      />
+                      <span>John Doe</span>
+                      <i class="feather icon-chevron-down"></i>
+                    </div>
+                    <ul
+                      class="
+                        show-notification
+                        profile-notification
+                        dropdown-menu
+                      "
+                      data-dropdown-in="fadeIn"
+                      data-dropdown-out="fadeOut"
+                    >
+                      <li>
+                        <a href="#!">
+                          <i class="feather icon-settings"></i> Settings
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="feather icon-user"></i> Profile
+                        </a>
+                      </li>
+                      <li>
+                        <a href="email-inbox.html">
+                          <i class="feather icon-mail"></i> My Messages
+                        </a>
+                      </li>
+                      <li>
+                        <a href="auth-lock-screen.html">
+                          <i class="feather icon-lock"></i> Lock Screen
+                        </a>
+                      </li>
+                      <li>
+                        <a href="auth-sign-in-social.html">
+                          <i class="feather icon-log-out"></i> Logout
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div id="sidebar" class="users p-chat-user showChat">
+          <div class="had-container">
+            <div class="p-fixed users-main">
+              <div class="user-box">
+                <div class="chat-search-box">
+                  <a class="back_friendlist">
+                    <i class="feather icon-x"></i>
+                  </a>
+                  <div class="right-icon-control">
+                    <div class="input-group input-group-button">
+                      <input
+                        type="text"
+                        id="search-friends"
+                        name="footer-email"
+                        class="form-control"
+                        placeholder="Search Friend"
+                      />
+                      <div class="input-group-append">
+                        <button
+                          class="btn btn-primary waves-effect waves-light"
+                          type="button"
+                        >
+                          <i class="feather icon-search"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="main-friend-list">
+                  <div
+                    class="media userlist-box waves-effect waves-light"
+                    data-id="1"
+                    data-status="online"
+                    data-username="Josephin Doe"
+                  >
+                    <a class="media-left" href="#!">
+                      <img
+                        class="media-object img-radius img-radius"
+                        src="jpg/avatar-3.jpg"
+                        alt="Generic placeholder image "
+                      />
+                      <div class="live-status bg-success"></div>
+                    </a>
+                    <div class="media-body">
+                      <div class="chat-header">Josephin Doe</div>
+                    </div>
+                  </div>
+                  <div
+                    class="media userlist-box waves-effect waves-light"
+                    data-id="2"
+                    data-status="online"
+                    data-username="Lary Doe"
+                  >
+                    <a class="media-left" href="#!">
+                      <img
+                        class="media-object img-radius"
+                        src="jpg/avatar-2.jpg"
+                        alt="Generic placeholder image"
+                      />
+                      <div class="live-status bg-success"></div>
+                    </a>
+                    <div class="media-body">
+                      <div class="f-13 chat-header">Lary Doe</div>
+                    </div>
+                  </div>
+                  <div
+                    class="media userlist-box waves-effect waves-light"
+                    data-id="3"
+                    data-status="online"
+                    data-username="Alice"
+                  >
+                    <a class="media-left" href="#!">
+                      <img
+                        class="media-object img-radius"
+                        src="jpg/avatar-4.jpg"
+                        alt="Generic placeholder image"
+                      />
+                      <div class="live-status bg-success"></div>
+                    </a>
+                    <div class="media-body">
+                      <div class="f-13 chat-header">Alice</div>
+                    </div>
+                  </div>
+                  <div
+                    class="media userlist-box waves-effect waves-light"
+                    data-id="4"
+                    data-status="offline"
+                    data-username="Alia"
+                  >
+                    <a class="media-left" href="#!">
+                      <img
+                        class="media-object img-radius"
+                        src="jpg/avatar-3.jpg"
+                        alt="Generic placeholder image"
+                      />
+                      <div class="live-status bg-default"></div>
+                    </a>
+                    <div class="media-body">
+                      <div class="f-13 chat-header">
+                        Alia<small class="d-block text-muted">10 min ago</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="media userlist-box waves-effect waves-light"
+                    data-id="5"
+                    data-status="offline"
+                    data-username="Suzen"
+                  >
+                    <a class="media-left" href="#!">
+                      <img
+                        class="media-object img-radius"
+                        src="jpg/avatar-2.jpg"
+                        alt="Generic placeholder image"
+                      />
+                      <div class="live-status bg-default"></div>
+                    </a>
+                    <div class="media-body">
+                      <div class="f-13 chat-header">
+                        Suzen<small class="d-block text-muted"
+                          >15 min ago</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="showChat_inner">
+          <div class="media chat-inner-header">
+            <a class="back_chatBox">
+              <i class="feather icon-x"></i> Josephin Doe
+            </a>
+          </div>
+          <div class="main-friend-chat">
+            <div class="media chat-messages">
+              <a class="media-left photo-table" href="#!">
+                <img
+                  class="media-object img-radius img-radius m-t-5"
+                  src="jpg/avatar-2.jpg"
+                  alt="Generic placeholder image"
+                />
+              </a>
+              <div class="media-body chat-menu-content">
+                <div class="">
+                  <p class="chat-cont">
+                    I'm just looking around. Will you tell me something about
+                    yourself?
+                  </p>
+                </div>
+                <p class="chat-time">8:20 a.m.</p>
+              </div>
+            </div>
+            <div class="media chat-messages">
+              <div class="media-body chat-menu-reply">
+                <div class="">
+                  <p class="chat-cont">Ohh! very nice</p>
+                </div>
+                <p class="chat-time">8:22 a.m.</p>
+              </div>
+            </div>
+            <div class="media chat-messages">
+              <a class="media-left photo-table" href="#!">
+                <img
+                  class="media-object img-radius img-radius m-t-5"
+                  src="jpg/avatar-2.jpg"
+                  alt="Generic placeholder image"
+                />
+              </a>
+              <div class="media-body chat-menu-content">
+                <div class="">
+                  <p class="chat-cont">can you come with me?</p>
+                </div>
+                <p class="chat-time">8:20 a.m.</p>
+              </div>
+            </div>
+          </div>
+          <div class="chat-reply-box">
+            <div class="right-icon-control">
+              <div class="input-group input-group-button">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Write hear . . "
+                />
+                <div class="input-group-append">
+                  <button
+                    class="btn btn-primary waves-effect waves-light"
+                    type="button"
+                  >
+                    <i class="feather icon-message-circle"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pcoded-main-container">
+          <div class="pcoded-wrapper">
+            <nav class="pcoded-navbar">
+              <div class="nav-list">
+                <div class="pcoded-inner-navbar main-menu">
+                  <div class="pcoded-navigation-label">Navigation</div>
+                  <ul class="pcoded-item pcoded-left-item">
+                    <!-- <li class="pcoded-hasmenu">
+                      <a
+                        href="javascript:void(0)"
+                        class="waves-effect waves-dark"
+                      >
+                        <span class="pcoded-micon"
+                          ><i class="feather icon-home"></i
+                        ></span>
+                        <span class="pcoded-mtext">Dashboard</span>
+                      </a>
+                      <ul class="pcoded-submenu">
+                        <li class="">
+                          <a href="index.html" class="waves-effect waves-dark">
+                            <span class="pcoded-mtext">Default</span>
+                          </a>
+                        </li>
+                        <li class="">
+                          <a
+                            href="dashboard-crm.html"
+                            class="waves-effect waves-dark"
+                          >
+                            <span class="pcoded-mtext">CRM</span>
+                          </a>
+                        </li>
+                        <li class="">
+                          <a
+                            href="dashboard-analytics.html"
+                            class="waves-effect waves-dark"
+                          >
+                            <span class="pcoded-mtext">Analytics</span>
+                            <span class="pcoded-badge label label-info"
+                              >NEW</span
+                            >
+                          </a>
+                        </li>
+                      </ul>
+                    </li> -->
+                    <li class="">
+                      <a href="index.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon">
+                          <i class="feather icon-clipboard"></i>
+                        </span>
+                        <span class="pcoded-mtext">Blog Create</span>
+                      </a>
+                    </li>
+                    <li class="">
+                      <a href="blog-list.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon">
+                          <i class="feather icon-menu"></i>
+                        </span>
+                        <span class="pcoded-mtext">Total Blog List</span>
+                      </a>
+                    </li>
+                    <li class="active">
+                        <a href="our-blog.html" class="waves-effect waves-dark">
+                          <span class="pcoded-micon">
+                            <i class="feather icon-feather"></i>
+                          </span>
+                          <span class="pcoded-mtext">Our Blog</span>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+            <div class="pcoded-content">
+              <div class="page-header card">
+                <div class="row align-items-end">
+                  <div class="col-lg-8">
+                    <div class="page-header-title">
+                      <i class="feather icon-clipboard bg-c-blue"></i>
+                      <div class="d-inline">
+                        <h5>Blog Detail</h5>
+                        <span
+                          >lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="page-header-breadcrumb">
+                      <ul class="breadcrumb breadcrumb-title">
+                        <li class="breadcrumb-item">
+                          <a href="index.html"
+                            ><i class="feather icon-home"></i
+                          ></a>
+                        </li>
+                        <li class="breadcrumb-item">
+                          <a href="#!">Blog Detail</a>
+                        </li>
+                        <!-- <li class="breadcrumb-item">
+                          <a href="#!">Forms Validation</a>
+                        </li> -->
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pcoded-inner-content">
+                <div class="main-body">
+                  <div class="page-wrapper">
+                    <div class="page-body">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <div class="card">
+                              <div class="card-header">
+                                <h5 style="font-size: 23px;">အာလာဝက</h5>
+                              </div>
+                                <div class="card-block">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="blog-detail-image">
+                                                <img src="data:image/jpeg;base64,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" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="description-text">
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium eligendi beatae perspiciatis delectus dolor facilis veritatis libero similique natus, rerum quisquam autem nam atque dolore ad eveniet, deleniti aspernatur.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="styleSelector"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script type="88add89075ed2b878b934720-text/javascript" src="js/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- summer note -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <!-- data table js -->
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap4.min.js"></script>
+    <!-- -----------------------------Custom Js ------------------------------------ -->
+    <script src="assets/js/blog-list.js"></script>
+    <script
+      type="88add89075ed2b878b934720-text/javascript"
+      src="js/jquery-ui.min.js"
+    ></script>
+    <script
+      type="88add89075ed2b878b934720-text/javascript"
+      src="js/popper.min.js"
+    ></script>
+    <script
+      type="88add89075ed2b878b934720-text/javascript"
+      src="js/bootstrap.min.js"
+    ></script>
+
+    <script
+      src="js/waves.min.js"
+      type="88add89075ed2b878b934720-text/javascript"
+    ></script>
+
+    <script
+      type="88add89075ed2b878b934720-text/javascript"
+      src="js/jquery.slimscroll.js"
+    ></script>
+
+    <script
+      type="88add89075ed2b878b934720-text/javascript"
+      src="js/modernizr.js"
+    ></script>
+    <script
+      type="88add89075ed2b878b934720-text/javascript"
+      src="js/css-scrollbars.js"
+    ></script>
+
+    <script
+      type="d28fd8086f5eb18f81d8672a-text/javascript"
+      src="js/sweetalert.min.js"
+    ></script>
+    <script
+      type="d28fd8086f5eb18f81d8672a-text/javascript"
+      src="js/modal.js"
+    ></script>
+    <script
+      src="js/classie.js"
+      type="d28fd8086f5eb18f81d8672a-text/javascript"
+    ></script>
+    <script
+      type="d28fd8086f5eb18f81d8672a-text/javascript"
+      src="js/modaleffects.js"
+    ></script>
+    <script
+      src="js/pcoded.min.js"
+      type="d28fd8086f5eb18f81d8672a-text/javascript"
+    ></script>
+
+    <script
+      type="88add89075ed2b878b934720-text/javascript"
+      src="js/select2.full.min.js"
+    ></script>
+
+    <script
+      type="88add89075ed2b878b934720-text/javascript"
+      src="js/bootstrap-multiselect.js"
+    ></script>
+    <script
+      type="88add89075ed2b878b934720-text/javascript"
+      src="js/jquery.multi-select.js"
+    ></script>
+    <script
+      type="88add89075ed2b878b934720-text/javascript"
+      src="js/jquery.quicksearch.js"
+    ></script>
+
+    <script
+      type="88add89075ed2b878b934720-text/javascript"
+      src="js/select2-custom.js"
+    ></script>
+    <script
+      src="js/pcoded.min.js"
+      type="88add89075ed2b878b934720-text/javascript"
+    ></script>
+    <script
+      src="js/vertical-layout.min.js"
+      type="88add89075ed2b878b934720-text/javascript"
+    ></script>
+    <script
+      src="js/jquery.mcustomscrollbar.concat.min.js"
+      type="88add89075ed2b878b934720-text/javascript"
+    ></script>
+    <script
+      type="88add89075ed2b878b934720-text/javascript"
+      src="js/script.js"
+    ></script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
+      type="88add89075ed2b878b934720-text/javascript"
+    ></script>
+    <script type="88add89075ed2b878b934720-text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-23581568-13');
+    </script>
+    <script
+      src="js/rocket-loader.min.js"
+      data-cf-settings="88add89075ed2b878b934720-|49"
+      defer=""
+    ></script>
+  </body>
+
+  <!-- Mirrored from colorlib.com/polygon/admindek/default/form-validation.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Dec 2019 16:09:15 GMT -->
+</html>
